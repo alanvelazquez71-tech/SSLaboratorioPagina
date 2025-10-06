@@ -1,73 +1,64 @@
-# React + TypeScript + Vite
+# Pagina de Laboratorio del CIMA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+---
 
-Currently, two official plugins are available:
+## Tecnologías Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este proyecto fue inicializado con [Vite](https://vitejs.dev/).
 
-## React Compiler
+* **Framework/Biblioteca:** [React](https://reactjs.org/) 
+* **Lenguaje:** TypeScript
+* **Gestor de Dependencias:** npm 
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+---
 
-## Expanding the ESLint configuration
+## Inicialización del Proyecto
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### Prerrequisitos
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+Tener instalado [Node.js](https://nodejs.js.org/) (versión 18+).
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Instalación
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+1.  **Clona el repositorio** en tu máquina local:
+    ```bash
+    git clone [https://github.com/tu-usuario/nombre-del-proyecto.git](https://github.com/tu-usuario/nombre-del-proyecto.git)
+    cd nombre-del-proyecto
+    ```
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+2.  **Instala las dependencias** del proyecto:
+    ```bash
+    npm install  # o yarn install / pnpm install
+    ```
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## Descripción del proyecto
+
+ 1. ./pageData.json (Contiene un JSON con el contenido de la pagina)
+ 2. ./App.tsx (El componente principal donde se colocan los componentes que se muestran en la pagina)
+ 3. ./components (Carpeta donde se encuentran los componentes a utilizar)
+
+
+
+---
+
+## Scripts Disponibles
+
+En el directorio del proyecto, puedes ejecutar los siguientes comandos:
+
+| Comando | Descripción |
+| :--- | :--- |
+| `npm run dev` | Inicia el servidor de desarrollo local de Vite. |
+| `npm run build` | Compila la aplicación para producción en la carpeta `dist`. |
+| `npm run preview` | Sirve la compilación de producción de forma local. |
+| `npm run test` | Ejecuta las pruebas unitarias/integración (Ajusta si tienes un script de pruebas). |
+| `npm run lint` | Revisa y corrige el código según las reglas de linting (Ajusta si usas linting). |
+
+---
+
+## Contacto
+
+Tu Nombre - alanvelazquez71@aragon.unam.mx
+Enlace del Proyecto: [https://github.com/alanvelazquez71-tech/SSLaboratorioPagina]
