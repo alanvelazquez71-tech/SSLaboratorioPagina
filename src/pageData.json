@@ -1,0 +1,77 @@
+{
+    "titulo": "Laboratorio Interdisciplinario",
+    "header": [
+        {
+            "texto": "Inicio",
+            "href": "#inicio"
+        },
+        {
+            "texto": "Objetivo",
+            "href": "#objetivo"
+        },
+        {
+            "texto": "Servicios",
+            "href": "#servicios"
+        },
+        {
+            "texto": "Colaboraciones",
+            "href": "#colaboraciones"
+        },
+        {
+            "texto": "Galería",
+            "href": "#galeria"
+        },
+        {
+            "texto": "Visualización",
+            "href": "#visualizacion"
+        },
+        {
+            "texto": "Contacto",
+            "href": "#contacto"
+        }
+    ],
+    "secciones": [
+        {
+            "id": "inicio",
+            "nombre": "Inicio / Presentación",
+            "contenido": "Resumen del laboratorio y su vinculación con los proyectos PAPIIT y PAPIME."
+        },
+        {
+            "id": "objetivo",
+            "nombre": "Objetivo y Misión",
+            "contenido": "Declaración del objetivo del laboratorio con énfasis en colaboración interdisciplinaria."
+        },
+        {
+            "id": "servicios",
+            "nombre": "Servicios del Laboratorio",
+            "contenido": "Explicación de las funciones de ingesta, procesamiento, visualización, asesoría y formación."
+        },
+        {
+            "id": "colaboraciones",
+            "nombre": "Colaboraciones Actuales",
+            "contenido": "Ejemplos de trabajos con carreras como Comunicación y Periodismo."
+        },
+        {
+            "id": "galeria",
+            "nombre": "Galería / Evidencia de Actividades",
+            "contenido": "Fotografías o capturas de pantalla de sesiones, dashboards, capacitaciones, etc."
+        },
+        {
+            "id": "visualizacion",
+            "nombre": "Visualización de Datos",
+            "contenido": "Gráficas dinámicas alimentadas desde el sistema de gestión del laboratorio vía REST API.",
+            "items": [
+                "Número de asistentes por mes",
+                "Tiempo promedio de uso por equipo",
+                "Distribución por carrera",
+                "Equipos más usados",
+                "Tendencias de horarios de mayor afluencia"
+            ]
+        },
+        {
+            "id": "contacto",
+            "nombre": "Contacto / Créditos",
+            "contenido": "Información de contacto de los responsables, colaboradores académicos y técnicos."
+        }
+    ]
+}
