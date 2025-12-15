@@ -1,77 +1,172 @@
 {
     "titulo": "Laboratorio Interdisciplinario",
-    "header": [
-        {
-            "texto": "Inicio",
-            "href": "#inicio"
-        },
-        {
-            "texto": "Objetivo",
-            "href": "#objetivo"
-        },
-        {
-            "texto": "Servicios",
-            "href": "#servicios"
-        },
-        {
-            "texto": "Colaboraciones",
-            "href": "#colaboraciones"
-        },
-        {
-            "texto": "Galería",
-            "href": "#galeria"
-        },
-        {
-            "texto": "Visualización",
-            "href": "#visualizacion"
-        },
-        {
-            "texto": "Contacto",
-            "href": "#contacto"
-        }
-    ],
+    "header": {
+        "titulos": [
+            {
+                "texto": "Laboratorio de Macrodatos - FES Aragón, UNAM.",
+                "tipo": "h1",
+                "href": "#servicios"
+            },
+            {
+                "texto": "Infraestructura académica e interdisciplinaria para el procesamiento, limpieza y análisis de datos masivos. Tecnología al servicio del conocimiento.",
+                "tipo": "h2",
+                "href": "#servicios"
+            }
+        ],
+        "botones": [
+            {
+                "texto": "Conoce Nuestros Servicios",
+                "tipo": "boton",
+                "href": "#servicios"
+            },
+            {
+                "texto": "Contacto",
+                "tipo": "boton",
+                "href": "#contacto"
+            }
+        ]
+    },
     "secciones": [
         {
-            "id": "inicio",
-            "nombre": "Inicio / Presentación",
-            "contenido": "Resumen del laboratorio y su vinculación con los proyectos PAPIIT y PAPIME."
+            "id": "proposito",
+            "nombre": "NATURALEZA Y PROPOSITO LABORATORIO",
+            "contenido": "El Laboratorio de Macrodatos es una iniciativa académica de vanguardia creada en la FES Aragón, UNAM, como resultado de los proyectos PAPIIT IT101523, PAPIME PE100423 y PAPIME PE101425.\nSe concibe como un ecosistema técnico y académico orientado al procesamiento, limpieza y análisis estratégico de grandes volúmenes de datos, aplicando herramientas de Big Data, Ciencia de Datos e Ingeniería de Datos.\nEste laboratorio cuenta con la participación activa de académicos de la carrera de Ingeniería en Computación, así como con el respaldo del Centro de Investigación Multidisciplinaria Aragón (CIMA).\nSu misión es facilitar el desarrollo de proyectos interdisciplinares, fortaleciendo la formación profesional, la investigación aplicada y la producción de conocimiento en temas clave como comunicación digital, salud, urbanismo, educación y gobernanza, mediante el uso ético y eficiente de tecnologías de análisis de datos masivos."
         },
         {
             "id": "objetivo",
-            "nombre": "Objetivo y Misión",
-            "contenido": "Declaración del objetivo del laboratorio con énfasis en colaboración interdisciplinaria."
+            "nombre": " OBJETIVO GENERAL",
+            "contenido": "Diseñar, implementar y operar un ecosistema integral de macrodatos que brinde servicios especializados de preprocesamiento, limpieza, transformación y análisis avanzado de datos para proyectos académicos multidisciplinarios.\nPromovemos la colaboración entre carreras y garantizamos el uso ético, eficiente y estratégico de herramientas de vanguardia en Ingeniería de Datos, Big Data y Ciencia de Datos, consolidando una cultura basada en evidencia para la solución de problemas complejos."
         },
         {
             "id": "servicios",
             "nombre": "Servicios del Laboratorio",
-            "contenido": "Explicación de las funciones de ingesta, procesamiento, visualización, asesoría y formación."
+            "contenido": "Explicación de las funciones de ingesta, procesamiento, visualización, asesoría y formación.",
+            "items": [
+                {
+                    "text": "Ingesta y Consolidación de Datos: Recolección automatizada desde fuentes diversas: redes sociodigitales, archivos institucionales, portales de datos abiertos y bases de datos externas."
+                },
+                {
+                    "text": "Preprocesamiento y Limpieza: Depuración de datos, eliminación de ruido, duplicados y normalización de formatos. Conversión de estructuras complejas (JSON, XML) a formatos tabulares listos para análisis."
+                },
+                {
+                    "text": "Transformación y Estructuración: Enriquecimiento de atributos, codificación de variables, clasificación temática y análisis de frecuencia, impacto y distribución temporal/geográfica."
+                },
+                {
+                    "text": "Procesamiento Distribuido: Ejecución de tareas intensivas utilizando clústeres con Apache Hadoop y Spark para el manejo eficiente de grandes volúmenes de información."
+                },
+                {
+                    "text": "Análisis Cuantitativo y Cualitativo: Identificación de patrones, tendencias y anomalías. Cruce de variables demográficas, temporales y geográficas. Interpretación contextualizada de resultados."
+                },
+                {
+                    "text": "Visualización y Comunicación: Generación de gráficos interactivos, mapas y dashboards dinámicos. Elaboración de informes técnicos y divulgativos para diferentes audiencias."
+                },
+                {
+                    "text": "Capacitación y Formación: Talleres y cursos especializados en herramientas como Hadoop, Spark, Python, SQL y Tableau. Apoyo en proyectos de titulación y tesis."
+                },
+                {
+                    "text": "Asesoría a Proyectos Multidisciplinarios: Consultoría técnica para el diseño de metodologías basadas en datos. Integración de tecnologías en estudios de comunicación, salud, urbanismo, educación, etc."
+                }
+            ]
         },
         {
             "id": "colaboraciones",
             "nombre": "Colaboraciones Actuales",
-            "contenido": "Ejemplos de trabajos con carreras como Comunicación y Periodismo."
-        },
-        {
-            "id": "galeria",
-            "nombre": "Galería / Evidencia de Actividades",
-            "contenido": "Fotografías o capturas de pantalla de sesiones, dashboards, capacitaciones, etc."
+            "contenido": "Licenciatura en Comunicación y Periodismo:\nColaboración activa en el marco del proyecto PAPIME PE101425, enfocado en el estudio interdisciplinar de contenidos en redes sociodigitales.\nEl laboratorio ha proporcionado soporte técnico integral para la depuración, estructuración y análisis computacional de publicaciones políticas durante el proceso electoral de 2024, permitiendo la identificación de tendencias discursivas y patrones de difusión de información."
         },
         {
             "id": "visualizacion",
             "nombre": "Visualización de Datos",
             "contenido": "Gráficas dinámicas alimentadas desde el sistema de gestión del laboratorio vía REST API.",
             "items": [
-                "Número de asistentes por mes",
-                "Tiempo promedio de uso por equipo",
-                "Distribución por carrera",
-                "Equipos más usados",
-                "Tendencias de horarios de mayor afluencia"
+                {
+                    "text": "Número de asistentes por mes"
+                },
+                {
+                    "text": "Tiempo promedio de uso por equipo"
+                },
+                {
+                    "text": "Distribución por carrera"
+                },
+                {
+                    "text": "Equipos más usados"
+                },
+                {
+                    "text": "Tendencias de horarios de mayor afluencia"
+                }
             ]
         },
         {
-            "id": "contacto",
-            "nombre": "Contacto / Créditos",
-            "contenido": "Información de contacto de los responsables, colaboradores académicos y técnicos."
+            "id": "proyecciones",
+            "nombre": "Proyecciones a futuro",
+            "contenido": "El Laboratorio de Macrodatos tiene como meta estratégica ampliar su alcance colaborativo a un mayor número de disciplinas dentro de la FES Aragón.\nBuscamos establecer alianzas con carreras como Urbanismo, Derecho, Sociología y Medicina, impulsando así una red sólida de investigación aplicada.\nEsta expansión permitirá abordar problemáticas complejas en áreas sociales, electorales, ambientales y de gobernanza mediante el uso estratégico de datos masivos,\nposicionando al laboratorio como un referente en la materia dentro de la UNAM."
+        },
+        {
+            "id": "responsables",
+            "nombre": "Equipo de responsables",
+            "contenido": "Nuestro Equipo.",
+            "personas": [
+                {
+                    "foto": "url-o-id-de-foto",
+                    "nombre": "Dr. OMAR MENDOZA GONZÁLEZ",
+                    "rol": "PROFESOR DE CARRERA,ICO ",
+                    "proyecto": "Proyectos PAPIIT/PAPIME",
+                    "extra": [
+                        "Línea adicional opcional",
+                        "Otra nota más"
+                    ]
+                },
+                {
+                    "foto": "url-o-id-de-foto",
+                    "nombre": "Mtro. JESÚS HERNANDEZ CABRERA",
+                    "rol": "PROFESOR DE CARRERA,ICO ",
+                    "proyecto": "Proyecto PAPIME PE101425"
+                },
+                {
+                    "foto": "url-o-id-de-foto",
+                    "nombre": "Mtro. MIGUEL ÁNGEL SÁNCHEZ HERNÁNEZ",
+                    "rol": "PROFESOR DE ASIGNATURA, ICO",
+                    "proyecto": "Proyecto PAPIIT IT101523",
+                    "extra": [
+                        "Encargado de infraestructura técnica"
+                    ]
+                }
+            ]
         }
-    ]
+    ],
+    "footer": {
+        "id": "contacto",
+        "secciones": [
+            {
+                "titulo": "Contacto / Créditos",
+                "items": [
+                    {
+                        "tipo": "texto",
+                        "texto": "Información de Contacto:"
+                    },
+                    {
+                        "tipo": "correo",
+                        "texto": "lab.macrodatos@aragon.unam.mx"
+                    },
+                    {
+                        "tipo": "ubicacion",
+                        "texto": "Edificio Principal CIMA, FES Aragón, UNAM. Av. Universidad S/N, Impulsora Popular Avícola, Nezahualcóyotl, Estado de México."
+                    },
+                    {
+                        "tipo": "link",
+                        "texto": "FES Aragón",
+                        "href": "https://aragon.unam.mx"
+                    },
+                    {
+                        "tipo": "link",
+                        "texto": "UNAM",
+                        "href": "https://unam.mx"
+                    },
+                    {
+                        "tipo": "texto",
+                        "texto": "© 2025 Laboratorio de Macrodatos, FES Aragón - UNAM. Todos los derechos reservados."
+                    }
+                ]
+            }
+        ]
+    }
 }
