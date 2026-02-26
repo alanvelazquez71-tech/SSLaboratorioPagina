@@ -168,6 +168,45 @@
             ]
         },
         {
+            "id": "visualizacion",
+            "nombre": "Visualización de Datos",
+            "contenidos": [
+                {
+                    "contenido": "Gráficas dinámicas alimentadas desde el sistema de gestión del laboratorio vía REST API.",
+                    "items": [
+                        {
+                            "text": "Número de asistentes por mes"
+                        },
+                        {
+                            "text": "Tiempo promedio de uso por equipo"
+                        },
+                        {
+                            "text": "Distribución por carrera"
+                        },
+                        {
+                            "text": "Equipos más usados"
+                        },
+                        {
+                            "text": "Tendencias de horarios de mayor afluencia"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "proyecciones",
+            "nombre": "Proyecciones a futuro",
+            "contenidos": [
+                {
+                    "contenido": "El Laboratorio de Macrodatos tiene como meta estratégica ampliar su alcance colaborativo a un mayor número de disciplinas dentro de la FES Aragón.\nBuscamos establecer alianzas con carreras como Urbanismo, Derecho, Sociología y Medicina, impulsando así una red sólida de investigación aplicada.\nEsta expansión permitirá abordar problemáticas complejas en áreas sociales, electorales, ambientales y de gobernanza mediante el uso estratégico de datos masivos,\nposicionando al laboratorio como un referente en la materia dentro de la UNAM.",
+                    "image": {
+                        "name": "Image_Proyecciones.png",
+                        "border": false
+                    }
+                }
+            ]
+        },
+        {
             "id": "alumnosColaboradores",
             "nombre": "Alumnos Colaboradores",
             "contenidos": [
@@ -217,45 +256,6 @@
                             ]
                         }
                     ]
-                }
-            ]
-        },
-        {
-            "id": "visualizacion",
-            "nombre": "Visualización de Datos",
-            "contenidos": [
-                {
-                    "contenido": "Gráficas dinámicas alimentadas desde el sistema de gestión del laboratorio vía REST API.",
-                    "items": [
-                        {
-                            "text": "Número de asistentes por mes"
-                        },
-                        {
-                            "text": "Tiempo promedio de uso por equipo"
-                        },
-                        {
-                            "text": "Distribución por carrera"
-                        },
-                        {
-                            "text": "Equipos más usados"
-                        },
-                        {
-                            "text": "Tendencias de horarios de mayor afluencia"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "id": "proyecciones",
-            "nombre": "Proyecciones a futuro",
-            "contenidos": [
-                {
-                    "contenido": "El Laboratorio de Macrodatos tiene como meta estratégica ampliar su alcance colaborativo a un mayor número de disciplinas dentro de la FES Aragón.\nBuscamos establecer alianzas con carreras como Urbanismo, Derecho, Sociología y Medicina, impulsando así una red sólida de investigación aplicada.\nEsta expansión permitirá abordar problemáticas complejas en áreas sociales, electorales, ambientales y de gobernanza mediante el uso estratégico de datos masivos,\nposicionando al laboratorio como un referente en la materia dentro de la UNAM.",
-                    "image": {
-                        "name": "Image_Proyecciones.png",
-                        "border": false
-                    }
                 }
             ]
         },
