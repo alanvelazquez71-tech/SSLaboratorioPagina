@@ -22,7 +22,7 @@
             {
                 "texto": "Contacto",
                 "tipo": "boton",
-                "href": "#contacto"
+                "href": "#responsables"
             }
         ]
     },
@@ -30,104 +30,267 @@
         {
             "id": "proposito",
             "nombre": "NATURALEZA Y PROPOSITO LABORATORIO",
-            "contenido": "El Laboratorio de Macrodatos es una iniciativa académica de vanguardia creada en la FES Aragón, UNAM, como resultado de los proyectos PAPIIT IT101523, PAPIME PE100423 y PAPIME PE101425.\nSe concibe como un ecosistema técnico y académico orientado al procesamiento, limpieza y análisis estratégico de grandes volúmenes de datos, aplicando herramientas de Big Data, Ciencia de Datos e Ingeniería de Datos.\nEste laboratorio cuenta con la participación activa de académicos de la carrera de Ingeniería en Computación, así como con el respaldo del Centro de Investigación Multidisciplinaria Aragón (CIMA).\nSu misión es facilitar el desarrollo de proyectos interdisciplinares, fortaleciendo la formación profesional, la investigación aplicada y la producción de conocimiento en temas clave como comunicación digital, salud, urbanismo, educación y gobernanza, mediante el uso ético y eficiente de tecnologías de análisis de datos masivos."
+            "contenidos": [
+                {
+                    "contenido": "El Laboratorio de Macrodatos es una iniciativa académica de vanguardia creada en la FES Aragón, UNAM, como resultado de los proyectos PAPIIT IT101523, PAPIME PE100423 y PAPIME PE101425.\nSe concibe como un ecosistema técnico y académico orientado al procesamiento, limpieza y análisis estratégico de grandes volúmenes de datos, aplicando herramientas de Big Data, Ciencia de Datos e Ingeniería de Datos.\nEste laboratorio cuenta con la participación activa de académicos de la carrera de Ingeniería en Computación, así como con el respaldo del Centro de Investigación Multidisciplinaria Aragón (CIMA).\nSu misión es facilitar el desarrollo de proyectos interdisciplinares, fortaleciendo la formación profesional, la investigación aplicada y la producción de conocimiento en temas clave como comunicación digital, salud, urbanismo, educación y gobernanza, mediante el uso ético y eficiente de tecnologías de análisis de datos masivos."
+                }
+            ]
         },
         {
             "id": "objetivo",
             "nombre": " OBJETIVO GENERAL",
-            "contenido": "Diseñar, implementar y operar un ecosistema integral de macrodatos que brinde servicios especializados de preprocesamiento, limpieza, transformación y análisis avanzado de datos para proyectos académicos multidisciplinarios.\nPromovemos la colaboración entre carreras y garantizamos el uso ético, eficiente y estratégico de herramientas de vanguardia en Ingeniería de Datos, Big Data y Ciencia de Datos, consolidando una cultura basada en evidencia para la solución de problemas complejos."
+            "contenidos": [
+                {
+                    "contenido": "Diseñar, implementar y operar un ecosistema integral de macrodatos que brinde servicios especializados de preprocesamiento, limpieza, transformación y análisis avanzado de datos para proyectos académicos multidisciplinarios.\nPromovemos la colaboración entre carreras y garantizamos el uso ético, eficiente y estratégico de herramientas de vanguardia en Ingeniería de Datos, Big Data y Ciencia de Datos, consolidando una cultura basada en evidencia para la solución de problemas complejos.",
+                    "image": {
+                        "name": "Imagen_Objetivo.png",
+                        "border": false
+                    }
+                }
+            ]
         },
         {
             "id": "servicios",
             "nombre": "Servicios del Laboratorio",
-            "contenido": "Explicación de las funciones de ingesta, procesamiento, visualización, asesoría y formación.",
-            "items": [
+            "contenidos": [
                 {
-                    "text": "Ingesta y Consolidación de Datos: Recolección automatizada desde fuentes diversas: redes sociodigitales, archivos institucionales, portales de datos abiertos y bases de datos externas."
-                },
-                {
-                    "text": "Preprocesamiento y Limpieza: Depuración de datos, eliminación de ruido, duplicados y normalización de formatos. Conversión de estructuras complejas (JSON, XML) a formatos tabulares listos para análisis."
-                },
-                {
-                    "text": "Transformación y Estructuración: Enriquecimiento de atributos, codificación de variables, clasificación temática y análisis de frecuencia, impacto y distribución temporal/geográfica."
-                },
-                {
-                    "text": "Procesamiento Distribuido: Ejecución de tareas intensivas utilizando clústeres con Apache Hadoop y Spark para el manejo eficiente de grandes volúmenes de información."
-                },
-                {
-                    "text": "Análisis Cuantitativo y Cualitativo: Identificación de patrones, tendencias y anomalías. Cruce de variables demográficas, temporales y geográficas. Interpretación contextualizada de resultados."
-                },
-                {
-                    "text": "Visualización y Comunicación: Generación de gráficos interactivos, mapas y dashboards dinámicos. Elaboración de informes técnicos y divulgativos para diferentes audiencias."
-                },
-                {
-                    "text": "Capacitación y Formación: Talleres y cursos especializados en herramientas como Hadoop, Spark, Python, SQL y Tableau. Apoyo en proyectos de titulación y tesis."
-                },
-                {
-                    "text": "Asesoría a Proyectos Multidisciplinarios: Consultoría técnica para el diseño de metodologías basadas en datos. Integración de tecnologías en estudios de comunicación, salud, urbanismo, educación, etc."
+                    "contenido": "Explicación de las funciones de ingesta, procesamiento, visualización, asesoría y formación.",
+                    "items": [
+                        {
+                            "header": "Ingesta y Consolidación de Datos",
+                            "text": "Recolección automatizada desde fuentes diversas: redes sociodigitales, archivos institucionales, portales de datos abiertos y bases de datos externas.",
+                            "image": {
+                                "name": "IngestaDatos.png",
+                                "border": true
+                            }
+                        },
+                        {
+                            "header": "Preprocesamiento y Limpieza",
+                            "text": "Depuración de datos, eliminación de ruido, duplicados y normalización de formatos. Conversión de estructuras complejas (JSON, XML) a formatos tabulares listos para análisis.",
+                            "image": {
+                                "name": "preprocesamiento.png",
+                                "border": true
+                            }
+                        },
+                        {
+                            "header": "Transformación y Estructuración",
+                            "text": "Enriquecimiento de atributos, codificación de variables, clasificación temática y análisis de frecuencia, impacto y distribución temporal/geográfica.",
+                            "image": {
+                                "name": "transformacion.png",
+                                "border": true
+                            }
+                        },
+                        {
+                            "header": "Procesamiento Distribuido",
+                            "text": "Ejecución de tareas intensivas utilizando clústeres con Apache Hadoop y Spark para el manejo eficiente de grandes volúmenes de información.",
+                            "image": {
+                                "name": "procesamientoDistribuido.png",
+                                "border": true
+                            }
+                        },
+                        {
+                            "header": "Análisis Cuantitativo y Cualitativo",
+                            "text": "Identificación de patrones, tendencias y anomalías. Cruce de variables demográficas, temporales y geográficas. Interpretación contextualizada de resultados.",
+                            "image": {
+                                "name": "analisis.png",
+                                "border": true
+                            }
+                        },
+                        {
+                            "header": "Visualización y Comunicación",
+                            "text": "Generación de gráficos interactivos, mapas y dashboards dinámicos. Elaboración de informes técnicos y divulgativos para diferentes audiencias.",
+                            "image": {
+                                "name": "visualizacion.png",
+                                "border": true
+                            }
+                        },
+                        {
+                            "header": "Capacitación y Formación",
+                            "text": "Talleres y cursos especializados en herramientas como Hadoop, Spark, Python, SQL y Tableau. Apoyo en proyectos de titulación y tesis.",
+                            "image": {
+                                "name": "capacitacion.png",
+                                "border": true
+                            }
+                        },
+                        {
+                            "header": "Asesoría a Proyectos Multidisciplinarios",
+                            "text": "Consultoría técnica para el diseño de metodologías basadas en datos. Integración de tecnologías en estudios de comunicación, salud, urbanismo, educación, etc.",
+                            "image": {
+                                "name": "asesoria.png",
+                                "border": true
+                            }
+                        }
+                    ]
                 }
             ]
         },
         {
             "id": "colaboraciones",
             "nombre": "Colaboraciones Actuales",
-            "contenido": "Licenciatura en Comunicación y Periodismo:\nColaboración activa en el marco del proyecto PAPIME PE101425, enfocado en el estudio interdisciplinar de contenidos en redes sociodigitales.\nEl laboratorio ha proporcionado soporte técnico integral para la depuración, estructuración y análisis computacional de publicaciones políticas durante el proceso electoral de 2024, permitiendo la identificación de tendencias discursivas y patrones de difusión de información."
+            "contenidos": [
+                {
+                    "contenido": "Licenciatura en Comunicación y Periodismo:",
+                    "card": [
+                        {
+                            "contenido": "Proyecto PAPIME PE101425",
+                            "descripcion": "Colaboración activa para el fortalecimiento de la enseñanza vinculando la ingeniería de datos con el periodismo.",
+                            "image": {
+                                "name": "Imagen_PAPIME.png",
+                                "border": true
+                            }
+                        },
+                        {
+                            "contenido": "Estudio Interdisciplinar de Redes",
+                            "descripcion": "Análisis de contenidos en redes sociodigitales para identificar estructuras de comunicación y comportamiento de audiencias.",
+                            "image": {
+                                "name": "Imagen_Redes.png",
+                                "border": true
+                            }
+                        },
+                        {
+                            "contenido": "Soporte Proceso Electoral 2024",
+                            "descripcion": "Soporte técnico especializado para la depuración y análisis masivo de publicaciones políticas durante el proceso electoral.",
+                            "image": {
+                                "name": "Imagen_Electoral.png",
+                                "border": true
+                            }
+                        },
+                        {
+                            "contenido": "Tendencias Discursivas",
+                            "descripcion": "Identificación de patrones de difusión de información y tendencias en el discurso digital mediante procesamiento de lenguaje natural.",
+                            "image": {
+                                "name": "Imagen_Tendencias.png",
+                                "border": true
+                            }
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "alumnosColaboradores",
+            "nombre": "Alumnos Colaboradores",
+            "contenidos": [
+                {
+                    "contenido": "Colaboraciones de alumnos:",
+                    "accordion": [
+                        {
+                            "anio": "2026",
+                            "alumnos": [
+                                {
+                                    "nombre": "PEPE MARTINEZ",
+                                    "periodoAsignacion": "Julio-Agosto",
+                                    "cargo": "Tester",
+                                    "asignacion": "Es un mensaje de prueba para validar como se muestra la asignacion que tuvo un alumno en la colaboracion del laboratorio",
+                                    "linkedif": "omar23",
+                                    "git": "https://omar23.com"
+                                }
+                            ]
+                        },
+                        {
+                            "anio": "2025",
+                            "alumnos": [
+                                {
+                                    "nombre": "JOSE VAZQUEZ",
+                                    "periodoAsignacion": "Julio-Agosto",
+                                    "cargo": "Test",
+                                    "asignacion": "Es un mensaje de prueba para validar como se muestra la asignacion que tuvo un alumno en la colaboracion del laboratorio",
+                                    "linkedif": "https://linkedin.com",
+                                    "git": "https://github.com"
+                                },
+                                {
+                                    "nombre": "DIEGO RAMIREZ",
+                                    "periodoAsignacion": "Julio-Agosto",
+                                    "cargo": "Test",
+                                    "asignacion": "Es un mensaje de prueba para validar como se muestra la asignacion que tuvo un alumno en la colaboracion del laboratorio",
+                                    "linkedif": "https://linkedin.com",
+                                    "git": "https://github.com"
+                                },
+                                {
+                                    "nombre": "ARTURO LOPEZ",
+                                    "periodoAsignacion": "Julio-Agosto",
+                                    "cargo": "Test",
+                                    "asignacion": "Es un mensaje de prueba para validar como se muestra la asignacion que tuvo un alumno en la colaboracion del laboratorio",
+                                    "linkedif": "https://linkedin.com",
+                                    "git": "https://github.com"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
         },
         {
             "id": "visualizacion",
             "nombre": "Visualización de Datos",
-            "contenido": "Gráficas dinámicas alimentadas desde el sistema de gestión del laboratorio vía REST API.",
-            "items": [
+            "contenidos": [
                 {
-                    "text": "Número de asistentes por mes"
-                },
-                {
-                    "text": "Tiempo promedio de uso por equipo"
-                },
-                {
-                    "text": "Distribución por carrera"
-                },
-                {
-                    "text": "Equipos más usados"
-                },
-                {
-                    "text": "Tendencias de horarios de mayor afluencia"
+                    "contenido": "Gráficas dinámicas alimentadas desde el sistema de gestión del laboratorio vía REST API.",
+                    "items": [
+                        {
+                            "text": "Número de asistentes por mes"
+                        },
+                        {
+                            "text": "Tiempo promedio de uso por equipo"
+                        },
+                        {
+                            "text": "Distribución por carrera"
+                        },
+                        {
+                            "text": "Equipos más usados"
+                        },
+                        {
+                            "text": "Tendencias de horarios de mayor afluencia"
+                        }
+                    ]
                 }
             ]
         },
         {
             "id": "proyecciones",
             "nombre": "Proyecciones a futuro",
-            "contenido": "El Laboratorio de Macrodatos tiene como meta estratégica ampliar su alcance colaborativo a un mayor número de disciplinas dentro de la FES Aragón.\nBuscamos establecer alianzas con carreras como Urbanismo, Derecho, Sociología y Medicina, impulsando así una red sólida de investigación aplicada.\nEsta expansión permitirá abordar problemáticas complejas en áreas sociales, electorales, ambientales y de gobernanza mediante el uso estratégico de datos masivos,\nposicionando al laboratorio como un referente en la materia dentro de la UNAM."
+            "contenidos": [
+                {
+                    "contenido": "El Laboratorio de Macrodatos tiene como meta estratégica ampliar su alcance colaborativo a un mayor número de disciplinas dentro de la FES Aragón.\nBuscamos establecer alianzas con carreras como Urbanismo, Derecho, Sociología y Medicina, impulsando así una red sólida de investigación aplicada.\nEsta expansión permitirá abordar problemáticas complejas en áreas sociales, electorales, ambientales y de gobernanza mediante el uso estratégico de datos masivos,\nposicionando al laboratorio como un referente en la materia dentro de la UNAM.",
+                    "image": {
+                        "name": "Image_Proyecciones.png",
+                        "border": false
+                    }
+                }
+            ]
         },
         {
             "id": "responsables",
             "nombre": "Equipo de responsables",
-            "contenido": "Nuestro Equipo.",
-            "personas": [
+            "contenidos": [
                 {
-                    "foto": "url-o-id-de-foto",
-                    "nombre": "Dr. OMAR MENDOZA GONZÁLEZ",
-                    "rol": "PROFESOR DE CARRERA,ICO ",
-                    "proyecto": "Proyectos PAPIIT/PAPIME",
-                    "extra": [
-                        "Línea adicional opcional",
-                        "Otra nota más"
-                    ]
-                },
-                {
-                    "foto": "url-o-id-de-foto",
-                    "nombre": "Mtro. JESÚS HERNANDEZ CABRERA",
-                    "rol": "PROFESOR DE CARRERA,ICO ",
-                    "proyecto": "Proyecto PAPIME PE101425"
-                },
-                {
-                    "foto": "url-o-id-de-foto",
-                    "nombre": "Mtro. MIGUEL ÁNGEL SÁNCHEZ HERNÁNEZ",
-                    "rol": "PROFESOR DE ASIGNATURA, ICO",
-                    "proyecto": "Proyecto PAPIIT IT101523",
-                    "extra": [
-                        "Encargado de infraestructura técnica"
+                    "contenido": "Nuestro Equipo.",
+                    "personas": [
+                        {
+                            "foto": "url-o-id-de-foto",
+                            "nombre": "Dr. OMAR MENDOZA GONZÁLEZ",
+                            "rol": "PROFESOR DE CARRERA,ICO ",
+                            "proyecto": "Proyectos PAPIIT/PAPIME",
+                            "extra": [
+                                "Línea adicional opcional",
+                                "Otra nota más"
+                            ]
+                        },
+                        {
+                            "foto": "url-o-id-de-foto",
+                            "nombre": "Mtro. JESÚS HERNANDEZ CABRERA",
+                            "rol": "PROFESOR DE CARRERA,ICO ",
+                            "proyecto": "Proyecto PAPIME PE101425"
+                        },
+                        {
+                            "foto": "url-o-id-de-foto",
+                            "nombre": "Mtro. MIGUEL ÁNGEL SÁNCHEZ HERNÁNEZ",
+                            "rol": "PROFESOR DE ASIGNATURA, ICO",
+                            "proyecto": "Proyecto PAPIIT IT101523",
+                            "extra": [
+                                "Encargado de infraestructura técnica"
+                            ]
+                        }
                     ]
                 }
             ]
